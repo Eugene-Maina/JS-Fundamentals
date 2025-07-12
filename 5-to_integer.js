@@ -1,10 +1,3 @@
-const convert=function(number){
-    if (number = Number(number)) {
-        console.log(`'My number:' number`);
-    }
-    else {
-        console.log('Not a number');
-    }
-    
-    
-}
+const args = process.argv.slice(2);
+const num = parseInt(args[0], 10);
+console.log(num === undefined || isNaN(num) ? "Not a number" : `My number: ${num}`);
