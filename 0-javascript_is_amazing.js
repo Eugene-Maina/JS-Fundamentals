@@ -1,2 +1,2 @@
-const myVar ="Javascript is amaizing";
+const myVar ="JavaScript is amaizing";
 console.log(myVar);
