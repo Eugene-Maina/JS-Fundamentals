@@ -1,2 +1,1 @@
-# JS-Fundamentals
-My first ever Javascript repo
+This repository contains Javascript exercises and examples.
